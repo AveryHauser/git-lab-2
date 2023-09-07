@@ -1,10 +1,10 @@
-program: answers.md
+program: Answers.md
 
 Name:   Avery Hauser
 Date:   9/7/2023
 Email:   ah236122@ohio.edu
 
-Description:   Is the Awnsers for lab 2
+Description:   Is the Answers for lab 2
 
 Answer 1:
 git version 2.39.2 (Apple Git-143)
@@ -68,3 +68,74 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 averyhauser@Averys-MacBook-Air-8 git-lab % 
+
+Answer 4:
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Answer 5:
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	answers.md
+
+Answer 6:
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   README.md
+	new file:   answers.md
+
+Answer 7:
+On branch main
+nothing to commit, working tree clean
+
+Answer 8:
+commit 9660a6803e8a8e13c46c3ecfa99640cd6c2fbba1 (HEAD -> main)
+Author: Avery_Hauser <averyhauser@Averys-MacBook-Air-8.local>
+Date:   Thu Sep 7 15:58:01 2023 -0400
+
+Answer 9:
+Both files have been moved into the git-lab repository
+
+Answer 10:
+Yes it was changed 
+
+Answer 11:
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/AveryHauser/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12:
+averyhauser@Averys-MacBook-Air-8 git-lab % git pull
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), 4.19 KiB | 390.00 KiB/s, done.
+From https://github.com/AveryHauser/git-lab
+   9660a68..e47631e  main       -> origin/main
+Updating 9660a68..e47631e
+Fast-forward
+ README.md  |   4 ++++
+ answers.md | 114 +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Answer 13:
+ .		..		git-lab-2
